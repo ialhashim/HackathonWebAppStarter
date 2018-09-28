@@ -1,7 +1,3 @@
-def run_r(expression):
-
-    return exec('Rscript -e ' + expression)
-
 from http.server import BaseHTTPRequestHandler,HTTPServer
 
 import os
